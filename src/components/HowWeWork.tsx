@@ -26,10 +26,10 @@ export default function OperatingModel() {
     <section
       id="approach"
       ref={ref}
-      className={`reveal ${isVisible ? 'visible' : ''} py-16 md:py-24`}
+      className={`reveal ${isVisible ? 'visible' : ''} py-10 md:py-14`}
     >
       <div className="section-container">
-        <div className="border-t border-border pt-12 md:pt-16">
+        <div className="border-t border-border pt-8 md:pt-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
             <div className="lg:col-span-4">
               <p className="text-label uppercase text-accent mb-4">Approach</p>

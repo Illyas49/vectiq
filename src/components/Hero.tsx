@@ -17,7 +17,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="section-container relative z-10 w-full py-32 sm:py-40">
+      <div className="section-container relative z-10 w-full py-28 sm:py-32">
         <div className="max-w-3xl">
           <p
             className={`text-label uppercase text-accent mb-6 transition-all duration-700 ${
@@ -68,7 +68,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-surface-0 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-surface-0 to-transparent" />
     </section>
   );
 }

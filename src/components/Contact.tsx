@@ -7,10 +7,10 @@ export default function Contact() {
     <section
       id="contact"
       ref={ref}
-      className={`reveal ${isVisible ? 'visible' : ''} py-16 md:py-24`}
+      className={`reveal ${isVisible ? 'visible' : ''} py-10 md:py-14`}
     >
       <div className="section-container">
-        <div className="border-t border-border pt-12 md:pt-16">
+        <div className="border-t border-border pt-8 md:pt-10">
           <div className="max-w-xl">
             <p className="text-label uppercase text-accent mb-4">Contact</p>
             <h2 className="text-h1 text-white mb-5">

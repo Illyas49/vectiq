@@ -11,7 +11,7 @@ export default function Worldview() {
   const { ref, isVisible } = useScrollReveal<HTMLElement>();
 
   return (
-    <section ref={ref} className={`reveal ${isVisible ? 'visible' : ''} py-16 md:py-24`}>
+    <section ref={ref} className={`reveal ${isVisible ? 'visible' : ''} py-10 md:py-14`}>
       <div className="section-container">
         <div className="border border-border rounded-2xl bg-surface-1/50 p-6 sm:p-8 md:p-10">
           <p className="text-body-lg text-zinc-300 max-w-3xl mb-10 leading-relaxed">

@@ -30,10 +30,10 @@ export default function Capabilities() {
     <section
       id="capabilities"
       ref={ref}
-      className={`reveal ${isVisible ? 'visible' : ''} py-16 md:py-24`}
+      className={`reveal ${isVisible ? 'visible' : ''} py-10 md:py-14`}
     >
       <div className="section-container">
-        <div className="mb-12 md:mb-16">
+        <div className="mb-8 md:mb-10">
           <p className="text-label uppercase text-accent mb-4">Capabilities</p>
           <h2 className="text-h1 text-white max-w-lg">
             Four disciplines, one integrated system
