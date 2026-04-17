@@ -10,8 +10,8 @@
 
   html {
     scroll-behavior: smooth;
-    background-color: #050507;
-    color: #eeeef0;
+    background-color: #09090b;
+    color: #f0f0f3;
   }
 
   body {
@@ -21,7 +21,7 @@
   }
 
   ::selection {
-    background-color: rgba(56, 189, 160, 0.2);
+    background-color: rgba(52, 211, 153, 0.25);
     color: #ffffff;
   }
 }
@@ -29,9 +29,9 @@
 @layer components {
   .reveal {
     opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1),
-                transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: translateY(24px);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1),
+                transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
   }
 
   .reveal.visible {
@@ -39,58 +39,25 @@
     transform: translateY(0);
   }
 
-  .gradient-line {
-    height: 1px;
-    background: linear-gradient(
-      90deg,
-      transparent 0%,
-      rgba(56, 189, 160, 0.2) 30%,
-      rgba(59, 130, 196, 0.08) 70%,
-      transparent 100%
-    );
+  .section-container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
-  .glow-dot {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #38bda0;
-    box-shadow: 0 0 6px rgba(56, 189, 160, 0.5), 0 0 20px rgba(56, 189, 160, 0.2);
+  @media (min-width: 640px) {
+    .section-container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
   }
 
-  .ambient-orb {
-    position: fixed;
-    border-radius: 50%;
-    pointer-events: none;
-    filter: blur(120px);
-    will-change: transform;
+  @media (min-width: 1024px) {
+    .section-container {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
   }
-
-  .scan-line {
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(56, 189, 160, 0.04), transparent);
-    animation: scanMove 10s linear infinite;
-  }
-
-  .glass-card {
-    background: rgba(15, 15, 22, 0.6);
-    backdrop-filter: blur(24px);
-    border: 1px solid rgba(255, 255, 255, 0.04);
-    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  .glass-card:hover {
-    background: rgba(15, 15, 22, 0.8);
-    border-color: rgba(255, 255, 255, 0.07);
-  }
-}
-
-@keyframes scanMove {
-  0% { transform: translateY(-100vh); opacity: 0; }
-  10% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { transform: translateY(100vh); opacity: 0; }
 }

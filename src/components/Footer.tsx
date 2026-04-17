@@ -1,25 +1,21 @@
 export default function Footer() {
   return (
-    <footer className="py-10 border-t border-line-subtle">
-      <div className="max-w-[1200px] mx-auto px-6 sm:px-8 lg:px-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-        <div className="flex items-baseline gap-4">
-          <span className="text-caption text-text-primary font-semibold tracking-tight">
-            Vectiq
-          </span>
-          <span className="text-micro text-text-tertiary uppercase tracking-wider">
-            Performance Media
-          </span>
+    <footer className="border-t border-border py-8">
+      <div className="section-container flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="flex items-center gap-3">
+          <span className="text-sm font-bold text-white tracking-tight">Vectiq</span>
+          <span className="text-xs text-zinc-600">&copy; {new Date().getFullYear()}</span>
         </div>
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
           <a
             href="#contact"
-            className="text-caption text-text-tertiary hover:text-text-secondary transition-colors duration-500"
+            className="text-sm text-zinc-500 hover:text-zinc-300 transition-colors duration-300"
           >
             Contact
           </a>
           <a
             href="mailto:partnerships@vectiq.io"
-            className="text-caption text-text-tertiary hover:text-text-secondary transition-colors duration-500"
+            className="text-sm text-zinc-500 hover:text-zinc-300 transition-colors duration-300"
           >
             partnerships@vectiq.io
           </a>
