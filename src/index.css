@@ -40,7 +40,7 @@
   }
 
   .section-container {
-    max-width: 1120px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1.5rem;
@@ -49,15 +49,22 @@
 
   @media (min-width: 640px) {
     .section-container {
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
     }
   }
 
   @media (min-width: 1024px) {
     .section-container {
-      padding-left: 2.5rem;
-      padding-right: 2.5rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .section-container {
+      padding-left: 8rem;
+      padding-right: 8rem;
     }
   }
 }
