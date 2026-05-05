@@ -1,10 +1,10 @@
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const stats = [
-  { value: 'Paid Media', detail: 'Meta, Google, TikTok, programmatic' },
-  { value: 'Search & Content', detail: 'Owned properties, SEO infrastructure' },
-  { value: 'Partner Networks', detail: 'Affiliate programs, distribution' },
-  { value: 'North America', detail: 'Regulated state-by-state operations' },
+  { value: '50+', detail: 'High-ranking content properties' },
+  { value: 'Tier 1', detail: 'Organic positions across target keywords' },
+  { value: 'North America', detail: 'Regulated state-by-state coverage' },
+  { value: 'Performance', detail: 'CPA, revenue share, and hybrid models' },
 ];
 
 export default function Worldview() {
@@ -15,10 +15,11 @@ export default function Worldview() {
       <div className="section-container">
         <div className="border border-border rounded-2xl bg-surface-1/50 p-6 sm:p-8 md:p-10">
           <p className="text-body-lg text-zinc-300 max-w-3xl mb-10 leading-relaxed">
-            Gaming acquisition is fragmented across channels, regulatory frameworks,
-            and partnership structures. Most operators rely on a patchwork of vendors
-            that move slowly. Vectiq is built differently — focused infrastructure
-            designed to operate across that complexity with speed and precision.
+            The online sports betting and gaming market is growing rapidly across
+            North America as new states regulate. Operators need reliable, compliant
+            acquisition channels that deliver high-value players at scale. Vectiq
+            provides that infrastructure through a portfolio of owned and operated
+            digital media properties built for organic visibility and conversion.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

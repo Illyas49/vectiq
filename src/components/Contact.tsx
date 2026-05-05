@@ -14,11 +14,11 @@ export default function Contact() {
           <div className="max-w-xl">
             <p className="text-label uppercase text-accent mb-4">Contact</p>
             <h2 className="text-h1 text-white mb-5">
-              Let's talk
+              Partnership inquiries
             </h2>
             <p className="text-body-lg text-zinc-400 mb-10 leading-relaxed">
-              For operator, affiliate, and media partnership conversations,
-              reach out directly.
+              For operator partnerships, affiliate program discussions, and media
+              collaboration opportunities, reach out to our team directly.
             </p>
             <a
               href="mailto:partnerships@vectiq.io"

@@ -24,7 +24,7 @@ export default function Hero() {
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
             }`}
           >
-            Acquisition infrastructure
+            Digital sports media &amp; performance marketing
           </p>
 
           <h1
@@ -32,7 +32,7 @@ export default function Hero() {
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >
-            Performance systems for gaming &amp; sports betting
+            High-intent audiences for online sports betting &amp; gaming
           </h1>
 
           <p
@@ -40,8 +40,9 @@ export default function Hero() {
               mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
           >
-            Vectiq develops and operates acquisition channels across paid media,
-            search, content, and partner distribution — built for regulated markets.
+            Vectiq operates a portfolio of high-ranking digital properties that connect
+            qualified players with leading sportsbook and gaming operators across
+            regulated North American markets.
           </p>
 
           <div
@@ -62,7 +63,7 @@ export default function Hero() {
               href="#capabilities"
               className="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-white px-6 py-3 rounded-lg border border-border hover:border-border-strong transition-all duration-300"
             >
-              Learn more
+              Our capabilities
             </a>
           </div>
         </div>

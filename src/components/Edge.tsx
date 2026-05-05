@@ -2,20 +2,20 @@ import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const partners = [
   {
-    type: 'Operators',
-    description: 'Sportsbooks and gaming platforms looking for acquisition infrastructure outside of their internal teams.',
+    type: 'Sportsbook Operators',
+    description: 'Licensed operators seeking incremental player volume through high-quality, performance-based acquisition channels outside of their internal marketing teams.',
+  },
+  {
+    type: 'Casino Gaming Platforms',
+    description: 'Online casino operators looking for sustainable, compliant lead generation that delivers depositing players with strong retention metrics.',
   },
   {
     type: 'Affiliate Programs',
-    description: 'Operator-side affiliate managers seeking reliable, compliant volume from quality media sources.',
-  },
-  {
-    type: 'Media Partners',
-    description: 'Content publishers, comparison sites, and traffic sources interested in structured distribution relationships.',
+    description: 'Operator-side partnership managers seeking reliable media sources with transparent reporting, verified traffic quality, and regulatory compliance.',
   },
   {
     type: 'Market-Entry Teams',
-    description: 'Operators launching in new jurisdictions who need acquisition channels that understand the local regulatory landscape.',
+    description: 'Operators launching in newly regulated states who need established acquisition infrastructure with local market knowledge and existing organic rankings.',
   },
 ];
 
@@ -37,8 +37,8 @@ export default function Partners() {
             </div>
             <div className="lg:col-span-7 flex items-end">
               <p className="text-body-lg text-zinc-400 max-w-lg">
-                We operate at the intersection of media, technology, and regulated
-                gaming — working closely with a focused group of industry participants.
+                We operate at the intersection of digital media, performance marketing,
+                and regulated online gaming across North America.
               </p>
             </div>
           </div>

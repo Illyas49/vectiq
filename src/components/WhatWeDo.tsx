@@ -3,23 +3,23 @@ import { useScrollReveal } from '../hooks/useScrollReveal';
 const capabilities = [
   {
     num: '01',
-    title: 'Paid Media',
-    text: 'Campaign architecture and media buying across Meta, Google, TikTok, and programmatic channels — built for regulated verticals with complex compliance requirements.',
+    title: 'Owned Media Properties',
+    text: 'A portfolio of content-rich websites engineered to rank for high-intent sports betting and gaming keywords. Our properties attract qualified audiences through editorial authority, data-driven content, and sustained organic visibility.',
   },
   {
     num: '02',
-    title: 'Search & Content',
-    text: 'Owned and operated content properties engineered for high-intent organic visibility. SEO infrastructure that compounds over time and adapts to shifting search landscapes.',
+    title: 'Paid Acquisition',
+    text: 'Scalable media buying across Meta, Google, TikTok, and programmatic channels. Campaigns are built for regulated verticals with compliant creative workflows, state-level targeting, and full-funnel attribution.',
   },
   {
     num: '03',
-    title: 'Interactive Acquisition',
-    text: 'Gamified acquisition environments that engage users before traditional conversion flows — capturing intent earlier and feeding scalable systems across paid, search, and content.',
+    title: 'Player Lead Generation',
+    text: 'Performance-based delivery of verified, high-value player leads to operator partners. Every lead is tracked from first touch through deposit, with transparent reporting and quality controls at each stage.',
   },
   {
     num: '04',
     title: 'Commercial Flexibility',
-    text: 'CPA, revenue share, hybrid, and custom structures aligned to operator economics and market conditions — not locked into a single pricing model.',
+    text: 'CPA, revenue share, hybrid, and custom structures aligned to operator economics and market conditions. Engagements are designed around sustainable unit economics for both parties.',
   },
 ];
 
@@ -36,7 +36,7 @@ export default function Capabilities() {
         <div className="mb-8 md:mb-10">
           <p className="text-label uppercase text-accent mb-4">Capabilities</p>
           <h2 className="text-h1 text-white max-w-lg">
-            Four disciplines, one integrated system
+            Full-spectrum player acquisition
           </h2>
         </div>
 
